@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197CACC1170C983E000A4D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197CACC0170C983E000A4D0A /* UIKit.framework */; };
+		197CACC3170C983E000A4D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197CACC2170C983E000A4D0A /* Foundation.framework */; };
+		197CACC5170C983E000A4D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197CACC4170C983E000A4D0A /* CoreGraphics.framework */; };
+		197CACCB170C983E000A4D0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 197CACC9170C983E000A4D0A /* InfoPlist.strings */; };
+		197CACCD170C983E000A4D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 197CACCC170C983E000A4D0A /* main.m */; };
+		197CACD1170C983E000A4D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 197CACD0170C983E000A4D0A /* AppDelegate.m */; };
+		197CACD3170C983E000A4D0A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 197CACD2170C983E000A4D0A /* Default.png */; };
+		197CACD5170C983E000A4D0A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 197CACD4170C983E000A4D0A /* Default@2x.png */; };
+		197CACD7170C983E000A4D0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 197CACD6170C983E000A4D0A /* Default-568h@2x.png */; };
+		197CACDA170C983E000A4D0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197CACD8170C983E000A4D0A /* MainStoryboard_iPhone.storyboard */; };
+		197CACDD170C983E000A4D0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197CACDB170C983E000A4D0A /* MainStoryboard_iPad.storyboard */; };
+		197CACE0170C983E000A4D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197CACDF170C983E000A4D0A /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		197CACBD170C983E000A4D0A /* touchrecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchrecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		197CACC0170C983E000A4D0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		197CACC2170C983E000A4D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		197CACC4170C983E000A4D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		197CACC8170C983E000A4D0A /* touchrecognizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchrecognizer-Info.plist"; sourceTree = "<group>"; };
+		197CACCA170C983E000A4D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		197CACCC170C983E000A4D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		197CACCE170C983E000A4D0A /* touchrecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchrecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		197CACCF170C983E000A4D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		197CACD0170C983E000A4D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		197CACD2170C983E000A4D0A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		197CACD4170C983E000A4D0A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		197CACD6170C983E000A4D0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		197CACD9170C983E000A4D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		197CACDC170C983E000A4D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		197CACDE170C983E000A4D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		197CACDF170C983E000A4D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		197CACBA170C983E000A4D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197CACC1170C983E000A4D0A /* UIKit.framework in Frameworks */,
+				197CACC3170C983E000A4D0A /* Foundation.framework in Frameworks */,
+				197CACC5170C983E000A4D0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197CACB4170C983E000A4D0A = {
+			isa = PBXGroup;
+			children = (
+				197CACC6170C983E000A4D0A /* touchrecognizer */,
+				197CACBF170C983E000A4D0A /* Frameworks */,
+				197CACBE170C983E000A4D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		197CACBE170C983E000A4D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197CACBD170C983E000A4D0A /* touchrecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197CACBF170C983E000A4D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				197CACC0170C983E000A4D0A /* UIKit.framework */,
+				197CACC2170C983E000A4D0A /* Foundation.framework */,
+				197CACC4170C983E000A4D0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		197CACC6170C983E000A4D0A /* touchrecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				197CACCF170C983E000A4D0A /* AppDelegate.h */,
+				197CACD0170C983E000A4D0A /* AppDelegate.m */,
+				197CACD8170C983E000A4D0A /* MainStoryboard_iPhone.storyboard */,
+				197CACDB170C983E000A4D0A /* MainStoryboard_iPad.storyboard */,
+				197CACDE170C983E000A4D0A /* ViewController.h */,
+				197CACDF170C983E000A4D0A /* ViewController.m */,
+				197CACC7170C983E000A4D0A /* Supporting Files */,
+			);
+			path = touchrecognizer;
+			sourceTree = "<group>";
+		};
+		197CACC7170C983E000A4D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				197CACC8170C983E000A4D0A /* touchrecognizer-Info.plist */,
+				197CACC9170C983E000A4D0A /* InfoPlist.strings */,
+				197CACCC170C983E000A4D0A /* main.m */,
+				197CACCE170C983E000A4D0A /* touchrecognizer-Prefix.pch */,
+				197CACD2170C983E000A4D0A /* Default.png */,
+				197CACD4170C983E000A4D0A /* Default@2x.png */,
+				197CACD6170C983E000A4D0A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		197CACBC170C983E000A4D0A /* touchrecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197CACE3170C983E000A4D0A /* Build configuration list for PBXNativeTarget "touchrecognizer" */;
+			buildPhases = (
+				197CACB9170C983E000A4D0A /* Sources */,
+				197CACBA170C983E000A4D0A /* Frameworks */,
+				197CACBB170C983E000A4D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchrecognizer;
+			productName = touchrecognizer;
+			productReference = 197CACBD170C983E000A4D0A /* touchrecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		197CACB5170C983E000A4D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shohei;
+			};
+			buildConfigurationList = 197CACB8170C983E000A4D0A /* Build configuration list for PBXProject "touchrecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 197CACB4170C983E000A4D0A;
+			productRefGroup = 197CACBE170C983E000A4D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197CACBC170C983E000A4D0A /* touchrecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197CACBB170C983E000A4D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197CACCB170C983E000A4D0A /* InfoPlist.strings in Resources */,
+				197CACD3170C983E000A4D0A /* Default.png in Resources */,
+				197CACD5170C983E000A4D0A /* Default@2x.png in Resources */,
+				197CACD7170C983E000A4D0A /* Default-568h@2x.png in Resources */,
+				197CACDA170C983E000A4D0A /* MainStoryboard_iPhone.storyboard in Resources */,
+				197CACDD170C983E000A4D0A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197CACB9170C983E000A4D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197CACCD170C983E000A4D0A /* main.m in Sources */,
+				197CACD1170C983E000A4D0A /* AppDelegate.m in Sources */,
+				197CACE0170C983E000A4D0A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		197CACC9170C983E000A4D0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197CACCA170C983E000A4D0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		197CACD8170C983E000A4D0A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197CACD9170C983E000A4D0A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		197CACDB170C983E000A4D0A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197CACDC170C983E000A4D0A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		197CACE1170C983E000A4D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		197CACE2170C983E000A4D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		197CACE4170C983E000A4D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchrecognizer/touchrecognizer-Prefix.pch";
+				INFOPLIST_FILE = "touchrecognizer/touchrecognizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		197CACE5170C983E000A4D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchrecognizer/touchrecognizer-Prefix.pch";
+				INFOPLIST_FILE = "touchrecognizer/touchrecognizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197CACB8170C983E000A4D0A /* Build configuration list for PBXProject "touchrecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197CACE1170C983E000A4D0A /* Debug */,
+				197CACE2170C983E000A4D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197CACE3170C983E000A4D0A /* Build configuration list for PBXNativeTarget "touchrecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197CACE4170C983E000A4D0A /* Debug */,
+				197CACE5170C983E000A4D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 197CACB5170C983E000A4D0A /* Project object */;
+}
