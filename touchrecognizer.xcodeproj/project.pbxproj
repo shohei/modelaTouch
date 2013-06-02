@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		197B18B2175A4FD50085D3EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 197B18B1175A4FD50085D3EF /* icon.png */; };
 		197CACC1170C983E000A4D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197CACC0170C983E000A4D0A /* UIKit.framework */; };
 		197CACC3170C983E000A4D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197CACC2170C983E000A4D0A /* Foundation.framework */; };
 		197CACC5170C983E000A4D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197CACC4170C983E000A4D0A /* CoreGraphics.framework */; };
@@ -19,9 +20,17 @@
 		197CACDA170C983E000A4D0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197CACD8170C983E000A4D0A /* MainStoryboard_iPhone.storyboard */; };
 		197CACDD170C983E000A4D0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197CACDB170C983E000A4D0A /* MainStoryboard_iPad.storyboard */; };
 		197CACE0170C983E000A4D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 197CACDF170C983E000A4D0A /* ViewController.m */; };
+		199E2E001759B56800376149 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 199E2DFF1759B56800376149 /* Default-Portrait~ipad.png */; };
+		199E2E021759B56D00376149 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 199E2E011759B56D00376149 /* Default-Landscape~ipad.png */; };
+		199E2E051759C02F00376149 /* JogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199E2E041759C02F00376149 /* JogController.m */; };
+		199E2E0F1759C3C200376149 /* Green_equilateral_triangle_point_up.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 199E2E0E1759C3C200376149 /* Green_equilateral_triangle_point_up.svg.png */; };
+		199E2E111759C44700376149 /* Green_equilateral_triangle_point_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 199E2E101759C44700376149 /* Green_equilateral_triangle_point_left.png */; };
+		199E2E131759C44F00376149 /* Green_equilateral_triangle_point_up_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 199E2E121759C44F00376149 /* Green_equilateral_triangle_point_up_right.png */; };
+		199E2E151759C46200376149 /* Green_equilateral_triangle_point_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 199E2E141759C46200376149 /* Green_equilateral_triangle_point_right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		197B18B1175A4FD50085D3EF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		197CACBD170C983E000A4D0A /* touchrecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchrecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		197CACC0170C983E000A4D0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		197CACC2170C983E000A4D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +48,14 @@
 		197CACDC170C983E000A4D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		197CACDE170C983E000A4D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		197CACDF170C983E000A4D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		199E2DFF1759B56800376149 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		199E2E011759B56D00376149 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		199E2E031759C02F00376149 /* JogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JogController.h; sourceTree = "<group>"; };
+		199E2E041759C02F00376149 /* JogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JogController.m; sourceTree = "<group>"; };
+		199E2E0E1759C3C200376149 /* Green_equilateral_triangle_point_up.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_equilateral_triangle_point_up.svg.png; sourceTree = "<group>"; };
+		199E2E101759C44700376149 /* Green_equilateral_triangle_point_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_equilateral_triangle_point_left.png; sourceTree = "<group>"; };
+		199E2E121759C44F00376149 /* Green_equilateral_triangle_point_up_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_equilateral_triangle_point_up_right.png; sourceTree = "<group>"; };
+		199E2E141759C46200376149 /* Green_equilateral_triangle_point_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_equilateral_triangle_point_right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,9 @@
 		197CACB4170C983E000A4D0A = {
 			isa = PBXGroup;
 			children = (
+				197B18B1175A4FD50085D3EF /* icon.png */,
+				199E2E011759B56D00376149 /* Default-Landscape~ipad.png */,
+				199E2DFF1759B56800376149 /* Default-Portrait~ipad.png */,
 				197CACC6170C983E000A4D0A /* touchrecognizer */,
 				197CACBF170C983E000A4D0A /* Frameworks */,
 				197CACBE170C983E000A4D0A /* Products */,
@@ -91,6 +111,8 @@
 				197CACDB170C983E000A4D0A /* MainStoryboard_iPad.storyboard */,
 				197CACDE170C983E000A4D0A /* ViewController.h */,
 				197CACDF170C983E000A4D0A /* ViewController.m */,
+				199E2E031759C02F00376149 /* JogController.h */,
+				199E2E041759C02F00376149 /* JogController.m */,
 				197CACC7170C983E000A4D0A /* Supporting Files */,
 			);
 			path = touchrecognizer;
@@ -100,7 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				197CACC8170C983E000A4D0A /* touchrecognizer-Info.plist */,
+				199E2E0E1759C3C200376149 /* Green_equilateral_triangle_point_up.svg.png */,
 				197CACC9170C983E000A4D0A /* InfoPlist.strings */,
+				199E2E141759C46200376149 /* Green_equilateral_triangle_point_right.png */,
+				199E2E101759C44700376149 /* Green_equilateral_triangle_point_left.png */,
+				199E2E121759C44F00376149 /* Green_equilateral_triangle_point_up_right.png */,
 				197CACCC170C983E000A4D0A /* main.m */,
 				197CACCE170C983E000A4D0A /* touchrecognizer-Prefix.pch */,
 				197CACD2170C983E000A4D0A /* Default.png */,
@@ -167,6 +193,13 @@
 				197CACD7170C983E000A4D0A /* Default-568h@2x.png in Resources */,
 				197CACDA170C983E000A4D0A /* MainStoryboard_iPhone.storyboard in Resources */,
 				197CACDD170C983E000A4D0A /* MainStoryboard_iPad.storyboard in Resources */,
+				199E2E001759B56800376149 /* Default-Portrait~ipad.png in Resources */,
+				199E2E021759B56D00376149 /* Default-Landscape~ipad.png in Resources */,
+				199E2E0F1759C3C200376149 /* Green_equilateral_triangle_point_up.svg.png in Resources */,
+				199E2E111759C44700376149 /* Green_equilateral_triangle_point_left.png in Resources */,
+				199E2E131759C44F00376149 /* Green_equilateral_triangle_point_up_right.png in Resources */,
+				199E2E151759C46200376149 /* Green_equilateral_triangle_point_right.png in Resources */,
+				197B18B2175A4FD50085D3EF /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +213,7 @@
 				197CACCD170C983E000A4D0A /* main.m in Sources */,
 				197CACD1170C983E000A4D0A /* AppDelegate.m in Sources */,
 				197CACE0170C983E000A4D0A /* ViewController.m in Sources */,
+				199E2E051759C02F00376149 /* JogController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +259,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -240,6 +275,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C3295B23-E567-4387-A313-13590D0ADFAE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C3295B23-E567-4387-A313-13590D0ADFAE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -257,7 +294,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -265,6 +303,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C3295B23-E567-4387-A313-13590D0ADFAE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C3295B23-E567-4387-A313-13590D0ADFAE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -274,10 +314,14 @@
 		197CACE4170C983E000A4D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "touchrecognizer/touchrecognizer-Prefix.pch";
 				INFOPLIST_FILE = "touchrecognizer/touchrecognizer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C3295B23-E567-4387-A313-13590D0ADFAE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C3295B23-E567-4387-A313-13590D0ADFAE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,10 +329,14 @@
 		197CACE5170C983E000A4D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: SHOHEI AOKI (VMAH4F2SXC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "touchrecognizer/touchrecognizer-Prefix.pch";
 				INFOPLIST_FILE = "touchrecognizer/touchrecognizer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C3295B23-E567-4387-A313-13590D0ADFAE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C3295B23-E567-4387-A313-13590D0ADFAE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +360,7 @@
 				197CACE5170C983E000A4D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

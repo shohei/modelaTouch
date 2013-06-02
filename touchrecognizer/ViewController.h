@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *labelX;
+@property (weak, nonatomic) IBOutlet UILabel *labelY;
+@property (weak, nonatomic) IBOutlet UILabel *labelMX;
+@property (weak, nonatomic) IBOutlet UILabel *labelMY;
 
 @end
